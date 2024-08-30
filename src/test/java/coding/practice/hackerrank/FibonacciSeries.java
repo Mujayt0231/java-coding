@@ -6,8 +6,9 @@ public class FibonacciSeries {
 
 		try {
 
+//			System.out.println(nthFib(6));
+
 			System.out.println(nthFib(6));
-			
 		} catch (IllegalArgumentException e) {
 			System.err.print("Exception: " + e.getMessage());
 		}
@@ -16,28 +17,46 @@ public class FibonacciSeries {
 
 	// Write a Java program for generating the nth Fibonacci Number using loop
 
+//	public static int nthFib(int nth) {
+//
+//		if (nth < 0) {
+//			throw new IllegalArgumentException("Inpust must be a non-negative integer.");
+//		}
+//
+//		int a = 0;
+//		int b = 1;
+//
+//		if (nth == 0) {
+//			return a;
+//		} else if (nth == 1) {
+//			return b;
+//		}
+//
+//		for (int i = 2; i <= nth; i++) {
+//			int next = a + b;
+//			a = b;
+//			b = next;
+//		}
+//
+//		return b;
+//	}
+
 	public static int nthFib(int nth) {
 
 		if (nth < 0) {
-			throw new IllegalArgumentException("Inpust must be a non-negative integer.");
+			throw new IllegalArgumentException("input must be non-negative integar.");
 		}
 
-		int a = 0;
-		int b = 1;
-
-		if (nth == a) {
-			return a;
-		} else if (nth == b) {
-			return b;
+		if (nth == 0) {
+			return 0;
 		}
 
-		for (int i = 2; i <= nth; i++) {
-			int next = a + b;
-			a = b;
-			b = next;
+		if (nth == 1) {
+			return 1;
 		}
 
-		return b;
+		return nthFib(nth - 1) + nthFib(nth - 2);
+
 	}
 
 }
