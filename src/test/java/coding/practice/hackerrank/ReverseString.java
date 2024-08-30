@@ -6,6 +6,14 @@ public class ReverseString {
 
 		System.out.println(reversedStringWithStringBuilder("John"));
 
+		String name = "testjava";
+
+		char[] strToChar = name.toCharArray();
+
+		for (int i = strToChar.length - 1; i >= 0; i--) {
+			System.out.print(strToChar[i]);
+		}
+
 	}
 
 	public static String reversedStringWithStringBuilder(String input) {
@@ -22,10 +30,5 @@ public class ReverseString {
 
 		return sb.toString();
 	}
-	
-	
-	
-	
-	
 
 }
