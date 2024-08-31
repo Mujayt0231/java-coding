@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T23:54:21 EDT" name="Default suite" finished-at="2024-08-30T23:54:37 EDT" duration-ms="16369">
+  <suite started-at="2024-08-31T11:00:10 EDT" name="Default suite" finished-at="2024-08-31T11:00:28 EDT" duration-ms="17516">
     <groups>
     </groups>
-    <test started-at="2024-08-30T23:54:21 EDT" name="Default test" finished-at="2024-08-30T23:54:37 EDT" duration-ms="16369">
+    <test started-at="2024-08-31T11:00:10 EDT" name="Default test" finished-at="2024-08-31T11:00:28 EDT" duration-ms="17516">
       <class name="selenium.practice.Google">
-        <test-method signature="backGroundColor()[pri:0, instance:selenium.practice.Google@4686afc2]" started-at="2024-08-30T23:54:21 EDT" name="backGroundColor" finished-at="2024-08-30T23:54:37 EDT" duration-ms="16331" status="PASS">
+        <test-method signature="backGroundColor()[pri:0, instance:selenium.practice.Google@38cee291]" started-at="2024-08-31T11:00:11 EDT" name="backGroundColor" finished-at="2024-08-31T11:00:28 EDT" duration-ms="17474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backGroundColor -->
