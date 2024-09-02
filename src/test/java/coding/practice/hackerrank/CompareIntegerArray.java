@@ -35,6 +35,9 @@ public class CompareIntegerArray {
 
 		}
 
+		System.out.println(map1);
+		System.out.println(map2);
+
 		return map1.equals(map2);
 
 	}
