@@ -6,11 +6,4 @@ public class FoundNthLargest {
 
 	}
 
-	public static int findLargestNum(int[] numArr) {
-
-		int firstNum = numArr[0];
-
-		return 0;
-	}
-
 }
