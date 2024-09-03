@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.practice.Google">
+      <class name="selenium.practice.Nishan">
         <methods>
-          <include name="backGroundColor"/>
+          <include name="navigateToAlliot"/>
         </methods>
-      </class> <!-- selenium.practice.Google -->
+      </class> <!-- selenium.practice.Nishan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

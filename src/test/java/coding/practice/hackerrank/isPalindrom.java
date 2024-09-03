@@ -1,6 +1,6 @@
 package coding.practice.hackerrank;
 
-public class isPalindrom {
+public class IsPalindrom {
 
 	public static void main(String[] args) {
 
