@@ -40,7 +40,7 @@ public class Google {
 		String timestamp = now.format(format);
 
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File fileDir = new File(System.getProperty("user.dir") + "screenshot_" + timestamp + ".png");
+		File fileDir = new File("screenshot_" + timestamp + ".png");
 		FileUtils.copyFile(file, fileDir);
 
 //		File elemScreenshot = driver.findElement(By.xpath("//input[@value=\"I'm Feeling Lucky\" and @role=\"button\"]"))
