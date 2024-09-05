@@ -9,7 +9,6 @@ public class FindDuplicateCharacterInString {
 	public static void main(String[] args) {
 		System.out.println(duplicateCharCount("JavaJ2EE"));
 		findDupchar("JavaJ2EE");
-
 	}
 
 	public static String duplicateCharCount(String input) {
