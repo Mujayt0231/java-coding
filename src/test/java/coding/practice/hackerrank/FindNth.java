@@ -37,13 +37,21 @@ public class FindNth {
 		return pq.peek();
 	}
 
-//	public static int findLargestCustom(int[] nums) {
-//
-//		
-//		
-//		
-//		
-//		
-//	}
+	public static int findLargestCustom(int[] nums, int num) {
+
+		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+
+		for (int i : nums) {
+
+			pq.offer(i);
+
+			if (pq.size() > num) {
+				pq.poll();
+			}
+		}
+
+		return pq.peek();
+
+	}
 
 }
