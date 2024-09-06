@@ -12,6 +12,12 @@ public class NonRepeatedString {
 
 	}
 
+	
+	
+	
+	
+	
+	
 	public static char firstNonRepeatedString(String input) {
 
 		if (input == null) {
