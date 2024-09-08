@@ -1,9 +1,8 @@
 package selenium.practice;
 
-import java.util.Set;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class BrowserTab {
@@ -11,10 +10,19 @@ public class BrowserTab {
 	@Test
 	public void multiTab() {
 
-		WebDriver driver = new ChromeDriver();
-		String currentWindow = driver.getWindowHandle();
+		ChromeOptions op = new ChromeOptions();
 
-		Set<String> windowHandles = driver.getWindowHandles();
+		op.addArguments("--disable-notifications");
+
+		op.addArguments("--incognito");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.manage().window().maximize();
+
+		driver.get("https://www.aapc.com/");
+
+		driver.quit();
 
 	}
 }
