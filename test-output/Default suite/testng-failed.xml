@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.practice.Nishan">
+      <class name="selenium.practice.BrowserTab">
         <methods>
-          <include name="navigateToAlliot"/>
+          <include name="multiTab"/>
         </methods>
-      </class> <!-- selenium.practice.Nishan -->
+      </class> <!-- selenium.practice.BrowserTab -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
