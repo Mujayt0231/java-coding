@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T17:12:29 EDT" name="Default suite" finished-at="2024-09-08T17:13:04 EDT" duration-ms="34332">
+  <suite started-at="2024-09-09T18:23:23 EDT" name="Default suite" finished-at="2024-09-09T18:23:23 EDT" duration-ms="70">
     <groups>
     </groups>
-    <test started-at="2024-09-08T17:12:29 EDT" name="Default test" finished-at="2024-09-08T17:13:04 EDT" duration-ms="34332">
-      <class name="selenium.practice.BrowserTab">
-        <test-method signature="multiTab()[pri:0, instance:selenium.practice.BrowserTab@750e2b97]" started-at="2024-09-08T17:12:29 EDT" name="multiTab" finished-at="2024-09-08T17:13:04 EDT" duration-ms="34298" status="PASS">
+    <test started-at="2024-09-09T18:23:23 EDT" name="Default test" finished-at="2024-09-09T18:23:23 EDT" duration-ms="70">
+      <class name="selenium.practice.Leetcode">
+        <test-method signature="dateAndTimeTest()[pri:0, instance:selenium.practice.Leetcode@3c77d488]" started-at="2024-09-09T18:23:23 EDT" name="dateAndTimeTest" finished-at="2024-09-09T18:23:23 EDT" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiTab -->
-      </class> <!-- selenium.practice.BrowserTab -->
+        </test-method> <!-- dateAndTimeTest -->
+      </class> <!-- selenium.practice.Leetcode -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

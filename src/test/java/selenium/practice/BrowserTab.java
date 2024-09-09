@@ -21,7 +21,6 @@ public class BrowserTab {
 	@BeforeTest
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
-
 	}
 
 	@Test
